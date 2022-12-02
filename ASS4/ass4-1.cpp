@@ -42,19 +42,21 @@ int main()
 		cout << "Choice :\n 1: Boundry Fillcolour \n 2: Flood Fillcolour\nEnter your choice :  ";
 		cin >> ch;
 		int x, y;
+		x=100;
+		y=100;
 		switch (ch)
 		{
 		case 1:
-			cout << "x and y : ";
-			cin >> x >> y;
+			// cout << "x and y : ";
+			// cin >> x >> y;
 			x = cx + x;
 			y = cy - y;
 			boundary(x, y, 5, 15);
 			delay(4000);
 			break;
 		case 2:
-			cout << "x and y : ";
-			cin >> x >> y;
+			// cout << "x and y : ";
+			// cin >> x >> y;
 			x = cx + x;
 			y = cy - y;
 			flood(x, y, 15, 0);
@@ -70,6 +72,6 @@ int main()
 		}
 	} while (p == 1);
 	getch();
-	closegraph();
+	// closegraph();
 	return 0;
 }

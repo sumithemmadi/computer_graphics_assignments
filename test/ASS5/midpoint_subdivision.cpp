@@ -26,10 +26,10 @@ main()
     scanf("%d%d", &p2.x, &p2.y);
     cleardevice();
     drawwindow();
- //   getch();
+    //   getch();
     drawline(p1, p2);
     delay(13000);
-  //  getch();
+    //  getch();
     cleardevice();
     drawwindow();
     midsub(p1, p2);
@@ -61,11 +61,11 @@ void midsub(PT p1, PT p2)
         midsub(mid, p2);
         break;
     }
-   // return 0;
+    // return 0;
 }
 void drawwindow()
 {
-    
+
     line(150, 100, 450, 100);
     line(450, 100, 450, 400);
     line(450, 400, 150, 400);
