@@ -13,7 +13,7 @@ void fun_draw(int i)
 	outtextxy(500,50,arr);
 	rectangle(100,100,1000,600);
 	line(800,100,800,600);
-	line(700,100 + i,700,100 + 200 + i);
+	line(700,150 + i,700,100 + 250 + i);
 }
 void circle_draw(int j)
 {

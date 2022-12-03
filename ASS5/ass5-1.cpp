@@ -2,6 +2,7 @@
 #include <graphics.h>
 using namespace std;
 
+
 int xmin, xmax, ymin, ymax;
 
 struct lines
